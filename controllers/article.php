@@ -19,8 +19,10 @@ class Article extends  Controller
     }
 
 
-    public function article(){
+    public function article($id = false){
 
-        $this->view->render('article/article');
+     $this->model->articleModel();
+
+        $this->view->render('article/article', $this->model->answer);
     }
 }

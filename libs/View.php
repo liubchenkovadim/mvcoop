@@ -9,8 +9,11 @@
 class View
 {
 
-        public function render($name)
+        public function render($name,$argument = false)
         {
+            require 'views/header.php';
             require 'views/' . $name . '.php';
+            require 'views/sidebar.php';
+            require 'views/footer.php';
         }
 }

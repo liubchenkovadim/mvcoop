@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: Arial, sens-serif;
+
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+
+}
+
+header {
+
+}
+
+.sidebar {
+    min-height: 400px;
+    background: aliceblue;
+    width: 35%;
+    flooat: left;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    background: antiquewhite;
+    width: 960px;
+    max-width: 960px;
+
+}
